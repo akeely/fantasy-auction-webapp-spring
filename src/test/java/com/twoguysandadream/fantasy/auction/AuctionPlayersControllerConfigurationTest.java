@@ -20,7 +20,6 @@ public class AuctionPlayersControllerConfigurationTest {
 
 	@Configuration
 	@ComponentScan("com.twoguysandadream.fantasy")
-	@ImportResource("file:src/main/resources/WEB-INF/fantasy-auction-webapp-spring-servlet.xml")
 	static public class ControllerConfiguration {
 
 	}
